@@ -155,6 +155,19 @@ drive.mount('/content/drive')
 -Generation of descriptions with OpenAI and Gemini
 -Evaluation of coherence and response time
 
+> [!CAUTION]
+> Each audio file in "Audios_narrativa" is directly related to an image in "Imagens_narrativas". The sequence is as follows:
+> 
+> audio_1.mp3: Tobias explorando o bairro.jpg
+> 
+> audio_2.mp3: Tobias achou o guarda-chuva azul.jpg
+> 
+> audio_3.mp3: Guarda-chuva se fecha e portal aparece.jpg
+> 
+> audio_4.mp3: Tobias é sugado pelo portal.jpg
+> 
+> audio_5.mp3: Tobias chega em Umbrelópolis e é recebido pelo coelho estiloso.jpg
+
 ## Evaluated Metrics
 
 | Métrica              | Descrição                                                                           |
