@@ -42,10 +42,15 @@ Este trabalho tem como objetivo explorar a capacidade de modelos multimodais de 
 ## Estrutura de Pastas
 
 📁 Inteligência Artificial/ 
+
   ├── 📁 Audios_narrativa/ # Áudios .mp3 com narração descritiva de cada imagem 
+  
   ├── 📁 Imagens_narrativa/ # Conjunto de imagens usadas no experimento 
+  
   ├── 📄 IA_Trabalho_A2.ipynb # Código principal do projeto 
+  
     ├── 📄 modelo/ # Modelo Vosk utilizado para transcrição 
+    
   ├── 📄 README.md # Documentação do projeto
 
 
