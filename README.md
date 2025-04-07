@@ -39,6 +39,11 @@ Este trabalho tem como objetivo explorar a capacidade de modelos multimodais de 
 - **Pillow (PIL)** para tratamento de imagens
 - **Google Drive** para organização dos dados
 
+> [!IMPORTANT]
+> Para a utilização das APIs do OpenAI ChatGPT e do Google Gemini, são necessárias chaves secretas que permitem o acesso a estes recursos.
+> 
+> A chave do Gemini pode ser obtida gratuitamente pelo Google, porém a chave do ChatGPT-4o só pode ser obtida mediante um investimento financeiro no próprio site da OpenAI.
+
 ## Estrutura de Pastas
 
 📁 Inteligência Artificial/ 
