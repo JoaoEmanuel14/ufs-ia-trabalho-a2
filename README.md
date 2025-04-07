@@ -63,9 +63,10 @@ drive.mount('/content/drive')
 - Geração de descrições com OpenAI e Gemini
 - Avaliação de coerência e tempo
 
-3. Métricas Avaliadas:
-| Métrica	| Descrição |
-| ------- | -------- |
-| Coerência Textual	| Avaliada manualmente pelos autores do projeto (nota de 1 a 5) |
-| Acurácia Multimodal | Comparação entre a transcrição real da narrativa e a descrição gerada |
-| Tempo de Resposta |	Tempo medido em segundos para a geração da resposta de cada modelo |
+## Métricas Avaliadas
+
+| Métrica              | Descrição                                                                 |
+|----------------------|---------------------------------------------------------------------------|
+| Coerência Textual    | Avaliada manualmente pelos autores do projeto (nota de 1 a 5)             |
+| Acurácia Multimodal  | Comparação entre a transcrição real da narrativa e a descrição gerada     |
+| Tempo de Resposta    | Tempo medido em segundos para a geração da resposta de cada modelo        |
