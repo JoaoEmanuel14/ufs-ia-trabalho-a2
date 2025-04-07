@@ -44,6 +44,14 @@ Este trabalho tem como objetivo explorar a capacidade de modelos multimodais de 
 > 
 > A chave do Gemini pode ser obtida gratuitamente pelo Google, porém a chave do ChatGPT-4o só pode ser obtida mediante um investimento financeiro no próprio site da OpenAI.
 
+**Depois que as chaves forem obtidas, elas devem ser postas na aba "Secrets" do Google Colab e importadas para o código utilizando:**
+```python
+from google.colab import userdata
+
+openai_api_key = userdata.get('OPENAI_API_KEY')  # Chave da OpenAI
+google_api_key = userdata.get('GOOGLE_API_KEY')  # Chave do Google
+```
+
 ## Estrutura de Pastas
 
 📁 Inteligência Artificial/ 
@@ -138,6 +146,19 @@ This project aims to explore the capabilities of multimodal Artificial Intellige
 - **gTTS and pydub** for audio manipulation
 - **Pillow (PIL)** for image processing
 - **Google Drive** for data organization
+
+> [!IMPORTANT]
+> To use the OpenAI ChatGPT and Google Gemini APIs, secret keys are required to access these resources.
+> 
+> The Gemini key can be obtained for free from Google, but the ChatGPT-4o key can only be acquired through a financial investment on OpenAI's official website.
+
+**After obtaining the keys, they must be placed in the "Secrets" tab of Google Colab and imported into the code using:**
+```python
+from google.colab import userdata
+
+openai_api_key = userdata.get('OPENAI_API_KEY')  # OpenAI's Key
+google_api_key = userdata.get('GOOGLE_API_KEY')  # Google's Key
+```
 
 ## Folder Structure
 
