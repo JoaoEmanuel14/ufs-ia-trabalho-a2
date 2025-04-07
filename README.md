@@ -73,3 +73,79 @@ drive.mount('/content/drive')
 | Coerência Textual    | Avaliada manualmente pelos autores do projeto (nota de 1 a 5)             |
 | Acurácia Multimodal  | Comparação entre a transcrição real da narrativa e a descrição gerada     |
 | Tempo de Resposta    | Tempo medido em segundos para a geração da resposta de cada modelo        |
+
+
+# ARTIFICIAL INTELLIGENCE PROJECT – A2 (ENGLISH)
+
+Participating Students:
+- EDGAR DE SOUZA DIAS  
+- JOÃO EMANUEL MENDONÇA APÓSTOLO  
+- JOSÉ MATHEUS RIBEIRO DOS SANTOS  
+- MARIA EDUARDA PIRES POSSARI DOS SANTOS  
+- ULISSES DE JESUS CAVALCANTE
+
+Project developed as part of the A2 evaluation for the Artificial Intelligence course - COMP0427  
+Federal University of Sergipe | Department of Computing | Prof. Dr. Hendrik Teixeira Macedo
+
+## Project Objective
+
+This project aims to explore the capabilities of multimodal Artificial Intelligence models (OpenAI ChatGPT-4o and Google Gemini Pro) in understanding and generating coherent descriptions based on images, audio, and associated narrative texts. This investigation will be conducted through three experiments. First, we will evaluate the models' ability to handle multimodal input. Then, modality transfer will be assessed. Finally, we will evaluate the architectures' capability to recognize the context of multiple prompts.
+
+## Features
+
+- Conversion of text descriptions to audio using TTS (text-to-speech) with OpenAI and gTTS (Google Text-to-Speech) with Gemini
+- Transcription of narrative audios using Vosk (speech-to-text)
+- Image analysis with contextual description via:
+  - OpenAI GPT-4o
+  - Google Gemini 1.5 Pro
+- Comparison between the models in terms of:
+  - **Textual coherence**
+  - **Multimodal accuracy**
+  - **Response time**
+- Evaluation of the models' ability to handle multimodal input
+- Evaluation of modality transfer
+- Assessment of narrative progression based on generated descriptions
+
+## Technologies Used
+
+- **Python 3.10+**
+- **OpenAI API (GPT-4o, TTS)**
+- **Google Gemini API (Gemini 1.5 Pro, gTTS)**
+- **Vosk (Offline speech recognition)**
+- **gTTS and pydub** for audio manipulation
+- **Pillow (PIL)** for image processing
+- **Google Drive** for data organization
+
+## Folder Structure
+
+📁 Artificial Intelligence/  
+
+  ├── 📁 Audios_narrativa/ # .mp3 audio files with descriptive narration for each image  
+  
+  ├── 📁 Imagens_narrativa/ # Set of images used in the experiment  
+  
+  ├── 📄 IA_Trabalho_A2.ipynb # Main project code  
+  
+  ├── 📄 README.md # Project documentation
+
+## How to Run
+
+1. **Mount Google Drive in Colab** and ensure the paths are correct:
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
+2. Run the notebook step by step, ensuring:
+-Conversion of .mp3 files to .wav (PCM 16kHz mono)
+-Audio transcription with Vosk
+-Generation of descriptions with OpenAI and Gemini
+-Evaluation of coherence and response time
+
+## Evaluated Metrics
+
+| Métrica              | Descrição                                                                           |
+|----------------------|-------------------------------------------------------------------------------------|
+| Textual Coherence    | Manually evaluated by the project authors (score from 1 to 5)                       |
+| Multimodal Accuracy  | Comparison between the actual narrative transcription and generated description     |
+| Response Time        | Time measured in seconds for each model's response generation                       |
