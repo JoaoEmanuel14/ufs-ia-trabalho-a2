@@ -7,7 +7,7 @@ Alunos participantes:
 - MARIA EDUARDA PIRES POSSARI DOS SANTOS  
 - ULISSES DE JESUS CAVALCANTE
 
-Projeto desenvolvido como forma de avaliação (A2) para a disciplina de Inteligência Artificial - COMP0427
+Trabalho desenvolvido como forma de avaliação (A2) para a disciplina de Inteligência Artificial - COMP0427
 Universidade Federal de Sergipe | Departamento de Computação | Prof. Dr. Hendrik Teixeira Macedo
 
 ## Objetivo do Projeto
@@ -102,7 +102,7 @@ Participating Students:
 - MARIA EDUARDA PIRES POSSARI DOS SANTOS  
 - ULISSES DE JESUS CAVALCANTE
 
-Project developed as part of the A2 evaluation for the Artificial Intelligence course - COMP0427  
+Work developed as part of the A2 evaluation for the Artificial Intelligence course - COMP0427  
 Federal University of Sergipe | Department of Computing | Prof. Dr. Hendrik Teixeira Macedo
 
 ## Project Objective
