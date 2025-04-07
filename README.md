@@ -68,6 +68,7 @@ drive.mount('/content/drive')
 
 > [!CAUTION]
 > Cada áudio presente em "Audios_narrativa" se relaciona diretamente com uma imagem em "Imagens_narrativas". A sequência é a seguinte:
+> 
 > audio_1.mp3: Tobias explorando o bairro.jpg
 > 
 > audio_2.mp3: Tobias achou o guarda-chuva azul.jpg
