@@ -49,8 +49,6 @@ Este trabalho tem como objetivo explorar a capacidade de modelos multimodais de 
   
   ├── 📄 IA_Trabalho_A2.ipynb # Código principal do projeto 
   
-    ├── 📄 modelo/ # Modelo Vosk utilizado para transcrição 
-    
   ├── 📄 README.md # Documentação do projeto
 
 
