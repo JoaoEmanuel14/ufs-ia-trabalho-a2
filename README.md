@@ -44,12 +44,15 @@ Este trabalho tem como objetivo explorar a capacidade de modelos multimodais de 
 > 
 > A chave do Gemini pode ser obtida gratuitamente pelo Google, porém a chave do ChatGPT-4o só pode ser obtida mediante um investimento financeiro no próprio site da OpenAI.
 
-**Depois que as chaves forem obtidas, elas devem ser postas na aba "Secrets" do Google Colab e importadas para o código utilizando:**
+**Depois que as chaves forem obtidas, elas devem ser postas na aba "Secrets" do Google Colab. Em seguida, importadas e configuradas para o código utilizando:**
 ```python
 from google.colab import userdata
 
 openai_api_key = userdata.get('OPENAI_API_KEY')  # Chave da OpenAI
 google_api_key = userdata.get('GOOGLE_API_KEY')  # Chave do Google
+
+client = openai.OpenAI(api_key=openai_api_key) # Para o ChatGPT
+genai.configure(api_key=google_api_key) # Para o Gemini
 ```
 
 ## Estrutura de Pastas
@@ -152,12 +155,15 @@ This project aims to explore the capabilities of multimodal Artificial Intellige
 > 
 > The Gemini key can be obtained for free from Google, but the ChatGPT-4o key can only be acquired through a financial investment on OpenAI's official website.
 
-**After obtaining the keys, they must be placed in the "Secrets" tab of Google Colab and imported into the code using:**
+**After obtaining the keys, they must be placed in the "Secrets" tab of Google Colab. Then, imported and configured into the code using:**
 ```python
 from google.colab import userdata
 
 openai_api_key = userdata.get('OPENAI_API_KEY')  # OpenAI's Key
 google_api_key = userdata.get('GOOGLE_API_KEY')  # Google's Key
+
+client = openai.OpenAI(api_key=openai_api_key) # For ChatGPT
+genai.configure(api_key=google_api_key) # For Gemini
 ```
 
 ## Folder Structure
