@@ -67,11 +67,15 @@ drive.mount('/content/drive')
 - Avaliação de coerência e tempo
 
 > [!CAUTION]
-> Lembrando que cada áudio presente em "Audios_narrativa" se relaciona diretamente com uma imagem em "Imagens_narrativas". A sequência é a seguinte:
+> Cada áudio presente em "Audios_narrativa" se relaciona diretamente com uma imagem em "Imagens_narrativas". A sequência é a seguinte:
 > audio_1.mp3: Tobias explorando o bairro.jpg
+> 
 > audio_2.mp3: Tobias achou o guarda-chuva azul.jpg
+> 
 > audio_3.mp3: Guarda-chuva se fecha e portal aparece.jpg
+> 
 > audio_4.mp3: Tobias é sugado pelo portal.jpg
+> 
 > audio_5.mp3: Tobias chega em Umbrelópolis e é recebido pelo coelho estiloso.jpg
 
 ## Métricas Avaliadas
