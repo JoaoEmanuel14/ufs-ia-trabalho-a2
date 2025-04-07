@@ -150,10 +150,10 @@ drive.mount('/content/drive')
 ```
 
 2. Run the notebook step by step, ensuring:
--Conversion of .mp3 files to .wav (PCM 16kHz mono)
--Audio transcription with Vosk
--Generation of descriptions with OpenAI and Gemini
--Evaluation of coherence and response time
+- Conversion of .mp3 files to .wav (PCM 16kHz mono)
+- Audio transcription with Vosk
+- Generation of descriptions with OpenAI and Gemini
+- Evaluation of coherence and response time
 
 > [!CAUTION]
 > Each audio file in "Audios_narrativa" is directly related to an image in "Imagens_narrativas". The sequence is as follows:
