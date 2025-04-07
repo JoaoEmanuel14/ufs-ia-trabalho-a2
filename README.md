@@ -40,6 +40,7 @@ Este trabalho tem como objetivo explorar a capacidade de modelos multimodais de 
 - **Google Drive** para organização dos dados
 
 ## Estrutura de Pastas
+
 📁 Inteligência Artificial/ │ 
   ├── 📁 Audios_narrativa/ # Áudios .mp3 com narração descritiva de cada imagem 
   ├── 📁 Imagens_narrativa/ # Conjunto de imagens usadas no experimento 
@@ -64,7 +65,7 @@ drive.mount('/content/drive')
 
 3. Métricas Avaliadas:
 | Métrica	| Descrição |
-| ------- | ------ -- |
+| ------- | -------- |
 | Coerência Textual	| Avaliada manualmente pelos autores do projeto (nota de 1 a 5) |
 | Acurácia Multimodal | Comparação entre a transcrição real da narrativa e a descrição gerada |
 | Tempo de Resposta |	Tempo medido em segundos para a geração da resposta de cada modelo |
