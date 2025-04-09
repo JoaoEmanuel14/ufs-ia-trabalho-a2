@@ -9,6 +9,7 @@ Alunos participantes:
 
 Trabalho desenvolvido como forma de avaliação (A2) para a disciplina de Inteligência Artificial - COMP0427
 Universidade Federal de Sergipe | Departamento de Computação | Prof. Dr. Hendrik Teixeira Macedo
+Link do Google Colaboratory: https://colab.research.google.com/drive/1uy0u6Oh8SMF7EMUcd8cXTStzANF19n0Q?usp=sharing
 
 ## Objetivo do Projeto
 
@@ -124,6 +125,7 @@ Participating Students:
 
 Work developed as part of the A2 evaluation for the Artificial Intelligence course - COMP0427  
 Federal University of Sergipe | Department of Computing | Prof. Dr. Hendrik Teixeira Macedo
+Google Colaboratory's link: https://colab.research.google.com/drive/1uy0u6Oh8SMF7EMUcd8cXTStzANF19n0Q?usp=sharing
 
 ## Project Objective
 
